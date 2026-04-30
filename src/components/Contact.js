@@ -72,7 +72,7 @@ export const Contact = () => {
           <Col size={12} md={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "" : ""}>
                   <div className="section-header">
                     <span className="section-tag">Let's Connect</span>
                     <h2>Get In Touch</h2>
