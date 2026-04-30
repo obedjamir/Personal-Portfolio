@@ -22,7 +22,7 @@ export const Publications = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "" : ""}>
                   <div className="section-header">
                     <span className="section-tag">Academic Work</span>
                     <h2>Publications & Research</h2>

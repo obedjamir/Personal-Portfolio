@@ -3,6 +3,9 @@ import projImg1 from "../assets/img/project1.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg4 from "../assets/img/project4.png";
 import projImg6 from "../assets/img/project6.png";
+import projImg7 from "../assets/img/project7.png";
+import projImg8 from "../assets/img/project8.png";
+import projImg9 from "../assets/img/project9.png";
 import TrackVisibility from 'react-on-screen';
 
 export const GamesDev = () => {
@@ -21,6 +24,7 @@ export const GamesDev = () => {
       platform: "Android · Google Play",
       description: "Virtual 3D Rubik's Cube with intuitive touch controls, progress tracking, and a user-friendly interface for casual and experienced solvers.",
       tech: ["Unity 3D", "C#", "Android"],
+      imgUrl: projImg7,
       link: "https://play.google.com/store/apps/details?id=com.Jamir.RubiksMaster",
       badge: "5K+ Downloads",
     },
@@ -29,6 +33,7 @@ export const GamesDev = () => {
       platform: "Android · Google Play",
       description: "Serene Tower of Hanoi puzzle with ambient soundscapes, calming visuals, and trivia rewards after completing each level. 1K+ downloads.",
       tech: ["Unity 3D", "C#", "Android"],
+      imgUrl: projImg8,
       link: "https://play.google.com/store/apps/details?id=com.Jamir.PeacefulHanoi",
       badge: "1K+ Downloads",
     },
@@ -58,6 +63,7 @@ export const GamesDev = () => {
       platform: "Web · GitHub Pages",
       description: "Designed and developed the official website for the MedISA Lab (Medical Image Synthesis & Analysis) at IIT Jodhpur under Prof. Angshuman Paul.",
       tech: ["Web Development", "GitHub Pages"],
+      imgUrl: projImg9,
       link: "https://medisalab.github.io/MedISA",
       badge: "Live",
     },

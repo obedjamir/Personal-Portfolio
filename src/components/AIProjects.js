@@ -10,7 +10,7 @@ export const AIProjects = () => {
       year: "2025–2026",
       description: "Designed a feature-driven layer specialization mechanism that selectively freezes or updates model layers by analysing salient regions in Class Activation Maps (CAMs). Evaluated across CIFAR-10, CIFAR-100, CINIC-10, NIH ChestX-ray14, CheXpert, and MIMIC-CXR with consistent improvements over FedAvg and FedProx baselines.",
       tech: ["PyTorch", "Federated Learning", "CAMs", "Medical Imaging"],
-      link: "https://doi.org/10.1016/j.neucom.2026.132620",
+      link: "https://github.com/obedjamir/FD-Fed.git",
     },
     {
       title: "Explainable AI — GradCAM on Chest X-Ray Pathology Detection",
