@@ -59,38 +59,35 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <AnimateOnce animationClass="animate__fadeIn">
-                  <div className="banner-label">
-                    <span className="label-icon">◆</span>
-                    <span>M.Tech-PhD CSE · IIT Jodhpur</span>
+                <div className="banner-label">
+                  <span className="label-icon">◆</span>
+                  <span>M.Tech-PhD CSE · IIT Jodhpur</span>
+                </div>
+                <h1>
+                  Obed Jamir
+                  <span className="txt-rotate">
+                    <span className="wrap">{text}</span>
+                  </span>
+                </h1>
+                <p className="banner-bio">
+                  Researching <strong>Heterogeneous Federated Learning</strong>, <strong>Machine Unlearning</strong>, and <strong>Privacy-Preserving Medical Image Analysis</strong> at IIT Jodhpur.
+                </p>
+                <div className="banner-stats">
+                  <div className="stat-item">
+                    <span className="stat-number">5+</span>
+                    <span className="stat-label">Published Apps</span>
                   </div>
-                  <h1>
-                    Obed Jamir
-                    <span className="txt-rotate">
-                      <span className="wrap">{text}</span>
-                    </span>
-                  </h1>
-                  <p className="banner-bio">
-                    Researching <strong>Heterogeneous Federated Learning</strong>, <strong>Machine Unlearning</strong>, and <strong>Privacy-Preserving Medical Image Analysis</strong> at IIT Jodhpur.
-                    I build production-grade applications spanning mobile platforms, game development, and full-stack web — with 5+ published apps on the Google Play Store.
-                  </p>
-                  <div className="banner-stats">
-                    <div className="stat-item">
-                      <span className="stat-number">5+</span>
-                      <span className="stat-label">Published Apps</span>
-                    </div>
-                    <div className="stat-divider"></div>
-                    <div className="stat-item">
-                      <span className="stat-number">1</span>
-                      <span className="stat-label">Journal Paper</span>
-                    </div>
-                    <div className="stat-divider"></div>
-                    <div className="stat-item">
-                      <span className="stat-number">IIT</span>
-                      <span className="stat-label">Jodhpur</span>
-                    </div>
+                  <div className="stat-divider"></div>
+                  <div className="stat-item">
+                    <span className="stat-number">1</span>
+                    <span className="stat-label">Journal Paper</span>
                   </div>
-            </AnimateOnce>
+                  <div className="stat-divider"></div>
+                  <div className="stat-item">
+                    <span className="stat-number">IIT</span>
+                    <span className="stat-label">Jodhpur</span>
+                  </div>
+                </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <AnimateOnce animationClass="animate__zoomIn">

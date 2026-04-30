@@ -79,43 +79,41 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <AnimateOnce>
-                  <div className="section-header">
-                    <span className="section-tag">Technical Proficiency</span>
-                    <h2>Skills & Expertise</h2>
-                    <p className="section-subtitle">
-                      A versatile skill set spanning deep learning research, full-stack development, 
-                      mobile applications, and interactive media.
-                    </p>
-                  </div>
+                <div className="section-header">
+                  <span className="section-tag">Technical Proficiency</span>
+                  <h2>Skills & Expertise</h2>
+                  <p className="section-subtitle">
+                    A versatile skill set spanning deep learning research, full-stack development, 
+                    mobile applications, and interactive media.
+                  </p>
+                </div>
 
-                  <div className="skill-categories">
-                    {skillCategories.map((cat, idx) => (
-                      <div className="skill-cat-card" key={idx}>
-                        <div className="cat-accent" style={{ background: cat.color }}></div>
-                        <h4>{cat.title}</h4>
-                        <div className="cat-skills">
-                          {cat.skills.map((s, i) => (
-                            <span key={i} className="cat-skill-tag" style={{ borderColor: cat.color, color: cat.color }}>
-                              {s}
-                            </span>
-                          ))}
-                        </div>
+                <div className="skill-categories">
+                  {skillCategories.map((cat, idx) => (
+                    <div className="skill-cat-card" key={idx}>
+                      <div className="cat-accent" style={{ background: cat.color }}></div>
+                      <h4>{cat.title}</h4>
+                      <div className="cat-skills">
+                        {cat.skills.map((s, i) => (
+                          <span key={i} className="cat-skill-tag" style={{ borderColor: cat.color, color: cat.color }}>
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="skill-carousel-wrap">
+                  <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                    {allSkills.map((skill, idx) => (
+                      <div className="item" key={idx}>
+                        <img src={skill.img} alt={skill.name} />
+                        <h5>{skill.name}</h5>
                       </div>
                     ))}
-                  </div>
-
-                  <div className="skill-carousel-wrap">
-                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                      {allSkills.map((skill, idx) => (
-                        <div className="item" key={idx}>
-                          <img src={skill.img} alt={skill.name} />
-                          <h5>{skill.name}</h5>
-                        </div>
-                      ))}
-                    </Carousel>
-                  </div>
-            </AnimateOnce>
+                  </Carousel>
+                </div>
           </Col>
         </Row>
       </Container>
