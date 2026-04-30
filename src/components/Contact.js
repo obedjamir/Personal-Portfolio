@@ -49,7 +49,7 @@ export const Contact = () => {
           <Col size={12} md={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "" : ""}>
                   <img src={contactImg} alt="Contact" className="contact-illustration" />
                   <div className="contact-info-cards">
                     <div className="contact-info-item">
