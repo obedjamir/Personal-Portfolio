@@ -41,7 +41,7 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "AI / ML",
-      skills: ["PyTorch", "TensorFlow", "Federated Learning", "GradCAM", "GANs"],
+      skills: ["PyTorch", "TensorFlow"],
       color: "#00d4ff",
     },
     {
@@ -51,7 +51,7 @@ export const Skills = () => {
     },
     {
       title: "Web & Mobile",
-      skills: ["React.js", "Spring Boot", "Android SDK", "PHP", "HTML/CSS"],
+      skills: ["React.js", "Spring Boot", "PHP", "HTML/CSS"],
       color: "#ff6b6b",
     },
     {
